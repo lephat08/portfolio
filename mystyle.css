@@ -1,0 +1,97 @@
+body{
+    background:#ced6e0;
+}
+
+#Header a:hover{
+    color: #FFC312;
+}
+
+#bg-img{
+    background: url('img/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+}
+
+#About{
+    margin-top: -200px;
+
+}
+
+#About .fa {
+    color: #FFF;
+}
+
+#About span {
+    padding: 10px 20px 10px 20px;
+
+}
+
+#About hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+
+
+#Skills span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Skills .card .progress{
+    margin-bottom: 15px;
+}
+
+#Experience span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Experience hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Experience .card {
+    border-top: 3px solid #feca57;
+}
+
+#Contact span {
+    padding: 10px 20px 10px 20px;
+}
+
+#Contact hr{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    /* display: none; */
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color:rgba(187, 255, 0, 0.466);
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color:lawngreen;
+    color: #000;
+}
