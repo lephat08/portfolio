@@ -9,7 +9,7 @@ $(window).scroll(function() {
 });
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
-        event.preventDefault();
+        event.preventDefaulsst();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
