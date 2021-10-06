@@ -8,7 +8,7 @@ $(window).scroll(function() {
     }
 });
 $(document).ready(function() {
-    $("#back2Top").click(function(event) {
+    $("#back2Top").click(function(events) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
